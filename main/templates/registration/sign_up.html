@@ -1,0 +1,16 @@
+{% extends 'main/base.html' %}
+
+{% block title %}registrar{% endblock %}
+
+{% load crispy_forms_tags %}
+
+{% block content %}
+  <form method="POST">
+    {% csrf_token %}
+    {{ form|crispy }}
+
+    <p>tem uma conta? <a href="login">logue aqui</a></p>
+    
+    <button type="submit" class="btn btn-success">registrar</button>
+  </form>
+{% endblock %}
