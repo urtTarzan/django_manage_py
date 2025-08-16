@@ -1,1 +1,1 @@
-rodando em [site](https://django-manage.onrender.com)
+rodando em [https://django-manage.onrender.com](https://django-manage.onrender.com)
