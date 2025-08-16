@@ -38,6 +38,11 @@ def sign_up(request):
         form =  RegistrationForm(request.POST)
         if form.is_valid():
             user = form.save()
+
+            # Adicionar o usuário ao grupo default
+            default_group, created = Group.objects.get_or_create(name='default')
+            user.groups.add(default_group)
+
             login(request,user)
             return redirect('/home')
     else:
