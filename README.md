@@ -1,7 +1,15 @@
-AVISO : não ultilize informações pessoais no site é apenas um teste
+⚠️ Aviso: Não utilize informações pessoais no site — este projeto é apenas um teste.
 
-rodando em [https://django-manage.onrender.com](https://django-manage.onrender.com)
+Rodando em: https://django-manage.onrender.com
 
+## Como foi desenvolvido:
+O projeto foi construído utilizando Bootstrap para a parte de estilização e alguns formulários padrão do Django para o front-end.
+No back-end, há um sistema de controle de usuários, que restringe o acesso a determinadas funcionalidades caso o usuário não esteja logado.
 
-## como foi feito:
-ultilizando bootstrap para a estilização e alguns formularios padorões do django para o front, ja no back tem um controle de usuarios no qual não permite acessar certas funcionalisades ao não estar logado, o projeto em si levou cerca de 2 horas e estudando sobre ele cerca de 4 aprendi bastante dá uma olhada ai em cima na pratica.
+## Tempo de desenvolvimento:
+
+Aproximadamente 2 horas de implementação
+
+Cerca de 4 horas de estudo prévio
+
+Foi um exercício rápido, mas bastante produtivo. Aprendi bastante durante o processo e já deu para colocar em prática conceitos de autenticação, estilização com Bootstrap e integração entre front e back. Dá uma olhada aí em cima no funcionamento real.
